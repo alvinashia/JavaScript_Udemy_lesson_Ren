@@ -47,18 +47,41 @@
 // console.log(luckyNumber.length);
 
 
-let luckyNumber =  [12, 22 ,33 ,512, 34];
-luckyNumber.forEach(function checkNum(n){
-    if(n>20){
-        console.log(n);
-    }
-})
+// let luckyNumber =  [12, 22 ,33 ,512, 34];
+// luckyNumber.forEach(function checkNum(n){
+//     if(n>20){
+//         console.log(n);
+//     }
+// })
 
-let luckyNumber =  [12, 22 ,33 ,512, 34];
-for(let i = 0; i< luckyNumber.length; i++){
-    if(luckyNumber[i]>20){
-        console.log(luckyNumber[i]);
-    }
-}
+// let luckyNumber =  [12, 22 ,33 ,512, 34];
+// for(let i = 0; i< luckyNumber.length; i++){
+//     if(luckyNumber[i]>20){
+//         console.log(luckyNumber[i]);
+//     }
+// }
 
 //forEach function takes one parameter-function
+
+
+// let luckyNumber =  [12, 22 ,33 ,512, 34];
+// luckyNumber.forEach(function (n){
+//     if(n > 20){
+//         console.log(n);
+//     }
+// });
+
+// let luckyNumber =  [12, 22 ,33 ,512, 34];
+// luckyNumber.forEach((n) =>{
+//     if(n>20){
+//         console.log(n)
+//     }
+// });
+
+let luckyNumber =  [12, 22 ,33 ,512, 34];
+luckyNumber.forEach( (n, index) =>{
+    if(n>20){
+        console.log(n);
+        console.log(n + " is at index number" + index)
+    }
+});
